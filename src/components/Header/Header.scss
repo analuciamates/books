@@ -1,0 +1,25 @@
+.header {
+    padding: 25px;
+    background-color: #69978d;
+
+    nav {
+        text-align: right;
+
+        a {
+            color: white;
+            margin: 0 15px;
+            font-size: 20px;
+            text-decoration: none;
+        }    
+    }
+
+    &__cart {
+        text-align: center;
+        display: inline-block;
+        position: relative;
+        left: -5px;
+        background-color: red;
+        width: 35px;
+        border-radius: 40px;
+    }
+}

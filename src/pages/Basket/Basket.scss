@@ -1,0 +1,38 @@
+.cart__list {
+    width: 1000px;
+    margin: 0 auto;
+
+    &__item {
+        list-style: none;
+        text-align: center;
+        width: 25%;
+        height: 420px;
+        display: inline-block;
+        padding: 0 25px;
+        vertical-align: top;
+        margin-right: 1%;
+        margin-left: 1%;
+        margin-top: 25px;
+
+        p {
+            font-size: 14px;
+            margin: 10px 0 0 0;
+        }
+    }
+
+    &__img {
+        display: block;
+        width: 200px;
+        height: 300px;
+        margin: auto;
+    }
+
+    &__total {
+        text-align: center;
+        padding: 10px;
+    }
+
+    &__empty {
+        text-align: center;
+    }
+}
